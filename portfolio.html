@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Portfolio Shots By Caynab</title>
+	<meta charset="utf-8">
+	<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+	<div id="wrapper">
+		<h1 id="header"><a href="homeali.html"><img src="images/logo.jpg" alt="logo"
+				height="48" width="48"></a> Shots By Caynab</h1>
+    	<div id="nav">
+        	<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="aboutus.html">About</a></li>
+						<li><a href="resume.html">Resume</a></li>
+						<li><a href="port.html">Portfolio</a></li>
+						<li><a href="contact.html">Contact</a></li>
+
+        	</ul>
+    	</div>
+    	<div id="content">
+
+<h1>Here is a slideshow of some of my photography work</h1>
+
+				<script type="text/javascript">
+
+	 var image1=new Image()
+	 image1.src="images/2.jpg"
+	 var image2=new Image()
+	 image2.src="images/3.jpg"
+	 var image3=new Image()
+	 image3.src="images/4.jpg"
+	 var image4=new Image()
+	 image4.src="images/8.jpg"
+	 var image5=new Image()
+	 image5.src="images/12.jpg"
+	 var image6=new Image()
+	 image6.src="images/15.jpg"
+	 var image7=new Image()
+	 image7.src="images/16.jpg"
+	 var image8=new Image()
+	 image8.src="images/17.jpg"
+	 var image9=new Image()
+	 image9.src="images/18.jpg"
+	 var image10=new Image()
+	 image10.src="images/19.jpg"
+	 var image11=new Image()
+	 image11.src="images/20.jpg"
+	 var image12=new Image()
+	 image12.src="images/21.jpg"
+	 </script>
+	 </head>
+	 <body>
+	 <img src="images/2.jpg" name="slide" width="800" height="500" />
+	 <script>
+
+	 var step=1
+	 function slideit(){
+
+	 if (!document.images)
+	 return
+	 document.images.slide.src=eval("image"+step+".src")
+	 if (step<12)
+	 step++
+	 else
+	 step=1
+
+	 setTimeout("slideit()",2500)
+	 }
+	 slideit()
+	 </script>
+	 <div id="content">
+
+
+			</div>
+			<div id="footer">Copyright &copy; 2018 Shots by Caynab<br>
+					<a href="mailto:abdullahiali2013@gmail.com">
+							abdullahiali2013@gmail.com</a>
+		</div>
+
+</body>
+</html>
